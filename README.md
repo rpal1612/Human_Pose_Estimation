@@ -10,7 +10,7 @@ This project demonstrates human pose estimation using Python, OpenCV, and Mediap
   - Live webcam feed processing for real-time pose estimation.
 - **Streamlit GUI**: A simple and interactive interface to choose input modes and view results.
 
-# Code Structure
+## Code Structure
 
 -**process_image(image)**: Processes an uploaded image for pose detection and overlays landmarks.
 
@@ -18,19 +18,19 @@ This project demonstrates human pose estimation using Python, OpenCV, and Mediap
 
 -**process_webcam()**: Captures real-time webcam feed, applies pose detection, and displays it within the app.
 
-# Streamlit components:
+## Streamlit components:
 -**File upload**: Allows users to upload images or videos.
 
 -**Sidebar**: Lets users choose between different input modes.
 
 -**Live feed**: Displays real-time webcam processing.
 
-# Requirements
+## Requirements
 Python 3.7+
 
 Libraries: streamlit, opencv-python, mediapipe, numpy
 
-# Acknowledgments
+## Acknowledgments
 Mediapipe for its powerful pose estimation library.
 
 Streamlit for creating interactive web apps with Python.
